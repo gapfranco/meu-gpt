@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "meu-gpt"
+version = "0.1.0"
+description = ""
+authors = ["Gonçalo Franco <gapfranco@gmail.com>"]
+readme = "README.md"
+packages = [{include = "meu_gpt"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.31.1"
+langchain = "^0.1.7"
+openai = "^1.12.0"
+langchain-community = "^0.0.20"
+watchdog = "^4.0.0"
+langchain-openai = "^0.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
