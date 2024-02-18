@@ -7,7 +7,7 @@ readme = "README.md"
 #packages = [{include = "meu_gpt"}]
 
 [tool.poetry.dependencies]
-python = "3.9.6"
+python = "3.9.18"
 streamlit = "^1.31.1"
 langchain = "^0.1.7"
 openai = "^1.12.0"
