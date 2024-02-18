@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Gonçalo Franco <gapfranco@gmail.com>"]
 readme = "README.md"
-packages = [{include = "meu_gpt"}]
+#packages = [{include = "meu_gpt"}]
 
 [tool.poetry.dependencies]
 python = "^3.9"
